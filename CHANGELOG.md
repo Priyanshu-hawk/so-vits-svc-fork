@@ -2,6 +2,49 @@
 
 <!--next-version-placeholder-->
 
+## v4.2.0 (2024-04-11)
+
+### Feature
+
+* **pre-sd:** Add leading zeros for 4-digit width of the output file name's numeric part #1154 ([#1155](https://github.com/voicepaw/so-vits-svc-fork/issues/1155)) ([`41b147f`](https://github.com/voicepaw/so-vits-svc-fork/commit/41b147f6c20873fc1cfeaae50d27b7b80d5fdeb6))
+
+### Fix
+
+* **pre-sd:** Set speaker-diarization version to 3.1 for pyannote.audio 3.1.1 compatibility ([#1157](https://github.com/voicepaw/so-vits-svc-fork/issues/1157)) ([`9bd3089`](https://github.com/voicepaw/so-vits-svc-fork/commit/9bd3089d87be0c4e7bd0fbed51c06c203ad55474))
+
+### Documentation
+
+* Add annagorshunova as a contributor for bug, and code ([#1158](https://github.com/voicepaw/so-vits-svc-fork/issues/1158)) ([`50f6d79`](https://github.com/voicepaw/so-vits-svc-fork/commit/50f6d79f81d443c3dea9a4de3c65dca6988080ac))
+
+## v4.1.61 (2024-04-06)
+
+### Fix
+
+* **deps:** Update dependency fastapi to v0.110.1 ([#1144](https://github.com/voicepaw/so-vits-svc-fork/issues/1144)) ([`eab647c`](https://github.com/voicepaw/so-vits-svc-fork/commit/eab647c8e21b954aa082b8319f084ae080105180))
+
+### Documentation
+
+* Add Priyanshu-hawk as a contributor for code ([#1148](https://github.com/voicepaw/so-vits-svc-fork/issues/1148)) ([`d6888db`](https://github.com/voicepaw/so-vits-svc-fork/commit/d6888db4204f87b7075d41371edf08c050179912))
+* Add marcellocirelli as a contributor for bug ([#1147](https://github.com/voicepaw/so-vits-svc-fork/issues/1147)) ([`8795709`](https://github.com/voicepaw/so-vits-svc-fork/commit/879570933831cdee3f325c94fc5b4e3fd172990f))
+
+## v4.1.60 (2024-04-06)
+
+### Fix
+
+* **deps:** Disallow pysimplegui>=5, update deps, update PyTorch urls in README.md ([#1142](https://github.com/voicepaw/so-vits-svc-fork/issues/1142)) ([`c0c5376`](https://github.com/voicepaw/so-vits-svc-fork/commit/c0c537639c72455328f98d147c06bd8f86030399))
+
+### Documentation
+
+* **readme:** Add description of repository maintenance status ([#1143](https://github.com/voicepaw/so-vits-svc-fork/issues/1143)) ([`3f537b0`](https://github.com/voicepaw/so-vits-svc-fork/commit/3f537b0919c0e651297c190ede9eb3c03782f319))
+* Add SamuelSwartzberg as a contributor for security ([#1146](https://github.com/voicepaw/so-vits-svc-fork/issues/1146)) ([`cddb722`](https://github.com/voicepaw/so-vits-svc-fork/commit/cddb72236f00d00a566a27a0243b71abbd615c64))
+* Add 4ll0w3v1l as a contributor for code ([#1141](https://github.com/voicepaw/so-vits-svc-fork/issues/1141)) ([`df699c7`](https://github.com/voicepaw/so-vits-svc-fork/commit/df699c7284149f79238b783f530d058b2a272447))
+
+## v4.1.59 (2024-04-06)
+
+### Fix
+
+* **pqmf:** Fix broken  scipy imports in _pqmf.py ([#1139](https://github.com/voicepaw/so-vits-svc-fork/issues/1139)) ([`b7639ca`](https://github.com/voicepaw/so-vits-svc-fork/commit/b7639ca3a2b283f371a14ce176fe5d0e1d74581e))
+
 ## v4.1.58 (2024-03-25)
 
 ### Fix

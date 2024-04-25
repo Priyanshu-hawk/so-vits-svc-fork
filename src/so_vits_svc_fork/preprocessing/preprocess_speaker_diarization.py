@@ -30,7 +30,7 @@ def _process_one(
         LOG.warning(f"Failed to read {input_path}: {e}")
         return
     pipeline = Pipeline.from_pretrained(
-        "pyannote/speaker-diarization", use_auth_token=huggingface_token
+        "pyannote/speaker-diarization-3.1", use_auth_token=huggingface_token
     )
     if pipeline is None:
         raise ValueError("Failed to load pipeline")
@@ -52,7 +52,7 @@ def _process_one(
         speaker_count[speaker] += 1
         audio_cut = audio[int(segment.start * sr) : int(segment.end * sr)]
         sf.write(
-            (output_dir / f"{speaker}_{speaker_count[speaker]}.wav"),
+            (output_dir / f"{speaker}_{speaker_count[speaker]:04d}.wav"),
             audio_cut,
             sr,
         )

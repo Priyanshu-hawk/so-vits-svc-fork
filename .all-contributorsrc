@@ -320,6 +320,41 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/79749977?v=4",
       "profile": "https://onako2.github.io/",
       "contributions": ["doc"]
+    },
+    {
+      "login": "4ll0w3v1l",
+      "name": "4ll0w3v1l",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53517147?v=4",
+      "profile": "https://github.com/4ll0w3v1l",
+      "contributions": ["code"]
+    },
+    {
+      "login": "SamuelSwartzberg",
+      "name": "j5y0V6b",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16353439?v=4",
+      "profile": "https://github.com/SamuelSwartzberg",
+      "contributions": ["security"]
+    },
+    {
+      "login": "marcellocirelli",
+      "name": "marcellocirelli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51972090?v=4",
+      "profile": "https://github.com/marcellocirelli",
+      "contributions": ["bug"]
+    },
+    {
+      "login": "Priyanshu-hawk",
+      "name": "Priyanshu Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76026651?v=4",
+      "profile": "https://github.com/Priyanshu-hawk",
+      "contributions": ["code"]
+    },
+    {
+      "login": "annagorshunova",
+      "name": "Anna Gorshunova",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5199204?v=4",
+      "profile": "https://github.com/annagorshunova",
+      "contributions": ["bug", "code"]
     }
   ],
   "contributorsPerLine": 7,
